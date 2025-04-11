@@ -1,5 +1,5 @@
 # ia_formation_tunisia
-Coming soon
+Coming soon in wip for the moment
 
 
 **GIT COMMANDS REMINDER**

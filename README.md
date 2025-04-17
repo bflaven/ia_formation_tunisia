@@ -36,6 +36,7 @@ git add .
 git commit -am "add usecase"
 git commit -am "add files"
 git commit -am "update files"
+git commit -am "add directory and files"
 
 # push to github if your branch on github is master
 # git push origin master

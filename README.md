@@ -19,7 +19,7 @@ Ressources sur les techniques de prompts.
 
 
 
-
+## Other
 **GIT COMMANDS REMINDER**
 
 ```bash

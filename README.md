@@ -1,5 +1,8 @@
 # ia_formation_tunisia
 
+## Notebooks
+Différents Google Collab pour partiquer.
+
 - 001_transcrire_audio_whisper.ipynb : utiliser whisper pour obtenir une transcription d'un fichier audio.
 
 - 002_prompter_llm_gemini.ipynb : prompter le llm gemini.
@@ -7,6 +10,15 @@
 - 003_traduire_nllb.ipynb : traduire un texte avec NLLB.
 
 - 004_editorial_prompts.ipynb : utiliser des prompts editoriaux avec le llm gemini.
+
+## Répertoire prompt_academy
+Ressources sur les techniques de prompts.
+
+
+
+
+
+
 
 **GIT COMMANDS REMINDER**
 

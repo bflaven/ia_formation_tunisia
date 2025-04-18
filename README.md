@@ -3,13 +3,15 @@
 ## Notebooks
 Différents Google Collab pour partiquer.
 
-- 001_transcrire_audio_whisper.ipynb : utiliser whisper pour obtenir une transcription d'un fichier audio.
+- 001_transcrire_audio_whisper.ipynb : utiliser Whisper d'OpenAI pour obtenir une transcription d'un fichier audio.
 
-- 002_prompter_llm_gemini.ipynb : prompter le llm gemini.
+- 002_prompter_llm_gemini.ipynb : prompter le LLM Gemini de Google.
 
-- 003_traduire_nllb.ipynb : traduire un texte avec NLLB.
+- 003_traduire_nllb.ipynb : traduire un texte avec le LLM NLLB de Meta.
 
-- 004_editorial_prompts.ipynb : utiliser des prompts editoriaux avec le llm gemini.
+- 004_editorial_prompts_gemini.ipynb : utiliser des prompts editoriaux avec le LLM Gemini de Google.
+
+- 005_prompter_llm_chatgpt_openai.ipynb : utiliser des prompts editoriaux avec le LLM ChatGPT d'OpenAI.
 
 ## Répertoire prompt_academy
 Ressources sur les techniques de prompts.

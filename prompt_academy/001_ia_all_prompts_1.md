@@ -904,7 +904,7 @@ Tu placeras 3 intertitres. Chaque intertitre ne dépassera pas 10 mots.
 Voici le texte original
 
 
-### '{content}'
+### '{content}' ###
 """
 ```
 

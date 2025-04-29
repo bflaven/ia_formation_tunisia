@@ -880,6 +880,110 @@ Par exemple, si le paragraphe d'entrée est "Marie a acheté une voiture. Elle e
 Given the input paragraph: user input: {source} __________________________ Perform coreference resolution to identify what each pronoun in the paragraph is referring to. Output must only contain the resolved references for each pronoun; without any additional context. Output must not contain any bullet points. If no referent is found for a pronoun; return 'None'. Output must be in this format: Pronoun: Referent ... output must not contain another information.
 ```
 
+
+## PROMPT FORMATION
+
+**PROMPT_1**
+```text
+Écris un article pour le web à partir d’un texte que je te transmets. L’article fera 800 mots et sera optimisé pour le référencement naturel. Le chapô fera trois lignes maximum. L’article sera articulé en 7 paragraphes de 12 lignes chacun. Tu placeras 3 intertitres. Chaque intertitre ne dépassera pas 10 mots.
+
+Voici le texte original
+
+
+### Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien.###
+```
+
+```python
+# PROMPT_1 : Depuis un contenu en  {language} , générer 3 tweets de 280 caractéres et 3 hashtags en  {language}
+prompt_example = f"""
+Écris un article en {language} pour le web à partir d’un texte que je te transmets. 
+L’article fera 800 mots et sera optimisé pour le référencement naturel. 
+Le chapô fera trois lignes maximum. L’article sera articulé en 7 paragraphes de 12 lignes chacun. 
+Tu placeras 3 intertitres. Chaque intertitre ne dépassera pas 10 mots.
+
+Voici le texte original
+
+
+### '{content}'
+"""
+```
+
+**PROMPT_2**
+
+```text
+Agis comme un journaliste d'un média radio international. Peux-tu me proposer trois titres différents pour cet article. Les titres devront être optimisés pour le référencement naturel et le plus accrocheur possible pour le lecteur. Voici l'URL de l'article : https://www.france24.com/fr/europe/20250429-panne-g%C3%A9ante-electricite-retour-%C3%A0-la-normale-en-espagne-et-au-portugal-trains
+```
+
+```python
+# PROMPT_2 : Depuis un contenu en {language}, générer 3 titres différents en {language}
+prompt_example = f"""
+Agis comme un journaliste en {language} d'un média radio international. Peux-tu me proposer trois titres différents pour cet article. Les titres devront être optimisés pour le référencement naturel et le plus accrocheur possible pour le lecteur. Voici l'URL de l'article : '{url}'
+
+"""
+```
+
+
+**PROMPT_3**
+```text
+Peux-tu résumer cet article en 150 mots tu présenteras les principales informations sous forme de liste à puce et tu tâcheras d'écrire des phrases simples compréhensibles pour un enfant de 10 ans : : https://www.france24.com/fr/europe/20250429-panne-g%C3%A9ante-electricite-retour-%C3%A0-la-normale-en-espagne-et-au-portugal-trains
+```
+
+```python
+# PROMPT_3 : Depuis un contenu en {language}, resumé en bullet point pour un enfant de 10 ans
+
+prompt_example = f"""
+Peux-tu résumer en {language} cet article en 150 mots tu présenteras les principales informations sous forme de liste à puce et tu tâcheras d'écrire des phrases simples compréhensibles pour un enfant de 10 ans : '{url}'
+"""
+```
+
+**PROMPT_4**
+```text
+Change la forme de cet article sous forme de tableau avec trois colonnes : l'entreprise, le montant de l'amende et la date 
+
+- article_1
+https://www.rfi.fr/fr/%C3%A9conomie/20250423-l-ue-impose-des-amendes-%C3%A0-apple-et-meta-pour-des-infractions-%C3%A0-la-concurrence
+
+- article_2
+https://www.ledauphine.com/science-et-technologie/2021/11/11/google-amazon-apple-quelles-amendes-a-deja-infligees-l-ue-et-avec-quels-resultats
+```
+
+```python
+# PROMPT_4 : Depuis un contenu en {language}, tableau CSV
+
+prompt_example = f"""
+
+Change la forme de cet article en {language} sous forme de tableau avec trois colonnes : l'entreprise, le montant de l'amende et la date : '{url}'
+
+"""
+```
+
+
+**PROMPT_5**
+```text
+Agis comme un journaliste de radio grand public, lis avec attention les données de ce tableau, analyse ses données et propose 5 graphiques pour les illustrer et réalise ensuite ces différents graphiques dans les tons rouges
+```
+
+```python
+# PROMPT_5 : Depuis un contenu en {language}, créer des graphiques depuis un CSV
+
+prompt_example = f"""
+
+Agis comme un journaliste  en {language} de radio grand public, lis avec attention les données de ce tableau, analyse ses données et propose 5 graphiques pour les illustrer et réalise ensuite ces différents graphiques dans les tons rouges
+
+"""
+```
+
+
+**Source:**
+- https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+
+
+- https://blog.sheetgo.com/spreadsheets-tips/awesome-chatgpt-prompts-for-spreadsheet-users/
+
+
+- https://bonprompt.com/
+
+- https://www.data.gouv.fr/fr/datasets/2024-esperance-de-vie-par-regions-departements-et-villes/
 <!-- 
 Expliquer en francais ce que fait ce prompt: 
 

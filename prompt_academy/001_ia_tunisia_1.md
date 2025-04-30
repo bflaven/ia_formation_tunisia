@@ -67,7 +67,7 @@ Sports. Grâce à sa large victoire 5-1 contre Tottenham dimanche, Liverpool a �
 Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, dimanche 27 avril à Anfield, avec une victoire enflammée contre Tottenham (5-1) synonyme de 20e titre en championnat d'Angleterre, le premier depuis 2020. Le Covid avait privé le peuple rouge d'une célébration méritée, il y a cinq ans, et il n'était pas question de gâcher la première "finale" de cette fin de saison, à domicile. Au coup de sifflet, les larmes des supporters se sont mêlés aux fumigènes et les joueurs ont dansé sur l'entêtant "Freed From Desire" de Gala, avant de se tenir, bras dessus bras dessous, devant le mythique Kop pour un très puissant "You'll Never Walk Alone". ###
 ```
 
-**PROMPT : Faire un tweet avec des hashtags et des émojis**
+**PROMPT : Faire 3 tweets avec des hashtags et des émojis**
 
 ```text
 Tu es un community manager intelligent et compétent.
@@ -81,7 +81,7 @@ Sports. Grâce à sa large victoire 5-1 contre Tottenham dimanche, Liverpool a �
 Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, dimanche 27 avril à Anfield, avec une victoire enflammée contre Tottenham (5-1) synonyme de 20e titre en championnat d'Angleterre, le premier depuis 2020. Le Covid avait privé le peuple rouge d'une célébration méritée, il y a cinq ans, et il n'était pas question de gâcher la première "finale" de cette fin de saison, à domicile. Au coup de sifflet, les larmes des supporters se sont mêlés aux fumigènes et les joueurs ont dansé sur l'entêtant "Freed From Desire" de Gala, avant de se tenir, bras dessus bras dessous, devant le mythique Kop pour un très puissant "You'll Never Walk Alone". ###
 ```
 
-**PROMPT : Faire un tweet avec des hashtags et des émojis**
+**PROMPT : Faire un resumé en 5 phrases**
 
 ```text
 Produis un résumé du texte d'une longueur de 5 phrases.

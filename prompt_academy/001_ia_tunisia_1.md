@@ -40,7 +40,7 @@ Sports. Grâce à sa large victoire 5-1 contre Tottenham dimanche, Liverpool a �
 Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, dimanche 27 avril à Anfield, avec une victoire enflammée contre Tottenham (5-1) synonyme de 20e titre en championnat d'Angleterre, le premier depuis 2020. Le Covid avait privé le peuple rouge d'une célébration méritée, il y a cinq ans, et il n'était pas question de gâcher la première "finale" de cette fin de saison, à domicile. Au coup de sifflet, les larmes des supporters se sont mêlés aux fumigènes et les joueurs ont dansé sur l'entêtant "Freed From Desire" de Gala, avant de se tenir, bras dessus bras dessous, devant le mythique Kop pour un très puissant "You'll Never Walk Alone". ###
 ```
 
-**PROMPT : Introduire la variable anglais**
+**PROMPT : Générer 3 titres et introduire la variable anglais**
 
 ```text
 Tu es un journaliste en anglais. Rédige trois titres convaincants et uniques pour un article en ligne sur le sujet donné. Assure-toi d'incorporer les meilleures pratiques SEO en incluant les mots-clés les plus courants et pertinents du contenu dans chaque titre. 
@@ -151,26 +151,56 @@ Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, di
 """
 
 prompt_example = f"""
-Given the input text in '{language}': Input: '{content}' Produce a summary of the text in '{language}'.
+Given the input text in '{language}': Input: '{contenu}' Produce a summary of the text in '{language}'.
 The summary must be in the same language from the original text in '{language}'.
 Captures the main ideas and key points of the text.
 Summary Does not include verbatim sentences from the original text. For the proposal,
 print only the result in a Python dictionary object with the summary as a string.
 Include the all result into a Python list object like define below. Output Format: [ {{"summary": "The summary of the content"}}]
 """
+```
 
+
+
+**ADVANCED PROMPT**
+```python
 # PROMPT_3 : Générer le résumé dans une {language} avec une longueur spécifique {summary_length}
+
+
+# résumé en 5 lignes
+language = "français"
+contenu = """
+Liverpool sacré champion d'Angleterre après sa victoire contre Tottenham
+Sports. Grâce à sa large victoire 5-1 contre Tottenham dimanche, Liverpool a été sacré champion d'Angleterre. Cette fois, ils ont pu fêter le titre avec leurs supporters, contrairement à 2020, lorsque leur précédent sacre avait été éclipsé par la pandémie de Covid-19. Le joueur de Liverpool Mohamed Salah célèbre son quatrième but avec ses coéquipiers contre Tottenham, le 27 avril 2025, lors du Championnat d'Angleterre.
+Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, dimanche 27 avril à Anfield, avec une victoire enflammée contre Tottenham (5-1) synonyme de 20e titre en championnat d'Angleterre, le premier depuis 2020. Le Covid avait privé le peuple rouge d'une célébration méritée, il y a cinq ans, et il n'était pas question de gâcher la première "finale" de cette fin de saison, à domicile. Au coup de sifflet, les larmes des supporters se sont mêlés aux fumigènes et les joueurs ont dansé sur l'entêtant "Freed From Desire" de Gala, avant de se tenir, bras dessus bras dessous, devant le mythique Kop pour un très puissant "You'll Never Walk Alone".
+"""
+
 summary_length = 5
 prompt_example = f"""
-Given the input text in '{language}': Input: '{content}' Produce a '{summary_length}' sentences length summary of the text in '{language}'.
+Given the input text in '{language}': Input: '{contenu}' Produce a '{summary_length}' sentences length summary of the text in '{language}'.
 The summary must be in the same language from the original text in '{language}'.
 Captures the main ideas and key points of the text. Summary Does not include verbatim sentences from the original text.
 For the proposal, print only the result in a Python dictionary object with the summary as a string and the summary_length keywords as a integer.
 Include the all result into a Python list object like define below.
 Output Format: [ {{"summary": "The summary of the content", "summary_length": summary_length_number }}]
 """
+```
 
+**ADVANCED PROMPT**
+
+
+```python
 # PROMPT_4 : Depuis un contenu en  {language} , générer 3 tweets de 280 caractéres et 3 hashtags en  {language}
+
+# faire en générer 3 tweets de 280 caractéres et 3 hashtags en  {language}
+language = "français"
+contenu = """
+Liverpool sacré champion d'Angleterre après sa victoire contre Tottenham
+Sports. Grâce à sa large victoire 5-1 contre Tottenham dimanche, Liverpool a été sacré champion d'Angleterre. Cette fois, ils ont pu fêter le titre avec leurs supporters, contrairement à 2020, lorsque leur précédent sacre avait été éclipsé par la pandémie de Covid-19. Le joueur de Liverpool Mohamed Salah célèbre son quatrième but avec ses coéquipiers contre Tottenham, le 27 avril 2025, lors du Championnat d'Angleterre.
+Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, dimanche 27 avril à Anfield, avec une victoire enflammée contre Tottenham (5-1) synonyme de 20e titre en championnat d'Angleterre, le premier depuis 2020. Le Covid avait privé le peuple rouge d'une célébration méritée, il y a cinq ans, et il n'était pas question de gâcher la première "finale" de cette fin de saison, à domicile. Au coup de sifflet, les larmes des supporters se sont mêlés aux fumigènes et les joueurs ont dansé sur l'entêtant "Freed From Desire" de Gala, avant de se tenir, bras dessus bras dessous, devant le mythique Kop pour un très puissant "You'll Never Walk Alone".
+"""
+
+
 prompt_example = f"""
 You are a smart and intelligent community manager.
 Craft three compelling messages of 280 characters each for an online post in {language} about the topic given in the content in {language}.
@@ -178,7 +208,7 @@ Ensure to incorporate Social Media Optimization (SMO) best practices by includin
 For each proposal in {language}, print only the result in a Python dictionary object with 'message' as a string and 'hashtags' as a list of hashtags.
 In the list of hashtags, for each hashtag, do not forget to add the sign "#" in front of it e.g. "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"].
 Include all results into a Python list object as defined below.
-Output Format:[{{"message": "The value of the message", "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"]}}, {{"message": "The value of the message", "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"]}}, {{"message": "The value of the message", "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"]}}] Content: '{content}'
+Output Format:[{{"message": "The value of the message", "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"]}}, {{"message": "The value of the message", "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"]}}, {{"message": "The value of the message", "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"]}}] Content: '{contenu}'
 """
 ```
 

@@ -3,6 +3,7 @@
 ## USER STORY FORMATION
 
 - **US : Assistance à l'écriture**
+
 Nom	: Résumé
 
 UserStory : En tant que journaliste, je souhaite, dans la même langue, avoir une proposition de draft d'un article depuis un contenu texte (article, édition, transcription...)	optimisé pour le référencement naturel.
@@ -12,6 +13,7 @@ Persona : JOURNALISTE
 
 
 - **US : Résumé**
+
 Nom	: Résumé
 
 UserStory : En tant que journaliste, je souhaite, dans la même langue, avoir une proposition de résumé depuis un contenu texte (article, édition, transcription...)	

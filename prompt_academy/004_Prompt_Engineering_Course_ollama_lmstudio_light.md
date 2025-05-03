@@ -1,4 +1,4 @@
-# 002_Prompt_Engineering_Course_ollama_lmstudio_light.md
+# 004_Prompt_Engineering_Course_ollama_lmstudio_light.md
 
 **Loading LLM with ollama.ai or lmstudio.ai**
 

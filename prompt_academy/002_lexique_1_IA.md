@@ -1,4 +1,4 @@
-# Lexique IA
+# 002_lexique_1_IA.md
 
 
 **Un certain nombre de définitions de mots récurrents  dans les explications de l'Intelligence Artificielle ou IA.**

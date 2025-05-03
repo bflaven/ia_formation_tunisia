@@ -1,5 +1,16 @@
 # 001_ia_tunisia_1.md
 
+**Quelques adresses :**
+
+- Mistral https://chat.mistral.ai/chat
+- Claude https://claude.ai/new
+- Perplexity https://www.perplexity.ai/
+- Chatgpt (open AI) https://chatgpt.com/
+- Gemini (Google) https://gemini.google.com/app
+
+
+
+
 ## USER STORY FORMATION
 
 - **US : Assistance à l'écriture**

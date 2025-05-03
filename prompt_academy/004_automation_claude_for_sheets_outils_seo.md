@@ -115,7 +115,7 @@ Assistant:", "claude-3-sonnet-20240229", "max_tokens", 300, "temperature", 0.3)
 Ces fonctions devraient considérablement simplifier vos workflows SEO dans Google Sheets !
 
 
-# Exemples de Fonctions Claude pour Sheets SEO (en français)
+# Exemples de Fonctions Claude pour Sheets SEO
 
 Voici des exemples concrets pour chaque fonction SEO présentée précédemment, avec des scénarios d'utilisation réels.
 

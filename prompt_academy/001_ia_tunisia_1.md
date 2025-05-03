@@ -21,10 +21,7 @@ UserStory : En tant que journaliste, je souhaite, dans la même langue, avoir un
 Persona : JOURNALISTE
 
 
-
-
-
-## PROMPT FORMATION
+## PROMPTS JOUR_1
 
 **PROMPT : Générer un article**
 ```text
@@ -118,6 +115,9 @@ Sports. Grâce à sa large victoire 5-1 contre Tottenham dimanche, Liverpool a �
 Liverpool a offert à ses supporters le sacre et la fête dont ils rêvaient, dimanche 27 avril à Anfield, avec une victoire enflammée contre Tottenham (5-1) synonyme de 20e titre en championnat d'Angleterre, le premier depuis 2020. Le Covid avait privé le peuple rouge d'une célébration méritée, il y a cinq ans, et il n'était pas question de gâcher la première "finale" de cette fin de saison, à domicile. Au coup de sifflet, les larmes des supporters se sont mêlés aux fumigènes et les joueurs ont dansé sur l'entêtant "Freed From Desire" de Gala, avant de se tenir, bras dessus bras dessous, devant le mythique Kop pour un très puissant "You'll Never Walk Alone". ###
 ```
 
+## PROMPTS JOUR_2
+
+
 **PROMPT :  Générer 3 titres depuis une URL (chatgpt)**
 
 ```text
@@ -139,7 +139,7 @@ Change la forme de cet article sous forme de tableau avec trois colonnes : l'ent
 https://www.ledauphine.com/science-et-technologie/2021/11/11/google-amazon-apple-quelles-amendes-a-deja-infligees-l-ue-et-avec-quels-resultats
 ```
 
-**PROMPT Faire des graphiques (chatgpt)**
+**PROMPT Faire des graphiques + tableur excel (esperance-de-vie-par-departements.csv) (chatgpt)**
 ```text
 Agis comme un journaliste de radio grand public, lis avec attention les données de ce tableau, analyse ses données et propose 5 graphiques pour les illustrer et réalise ensuite ces différents graphiques dans les tons rouges.
 

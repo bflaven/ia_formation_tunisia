@@ -1,7 +1,7 @@
 # claude_ai_google_sheet.md
 
 ## FICHIERS
-Il esxiste deux fichiers : 
+Il existe deux fichiers : 
 - test_claude_tunisia.xlsx
 - test_claude_tunisia_playlist.xlsx
 

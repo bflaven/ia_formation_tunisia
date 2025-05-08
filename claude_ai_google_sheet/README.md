@@ -8,19 +8,13 @@ Il existe deux fichiers :
 
 ## RESSOURCES
 
-- ETAPE_1 - Vous allez devoir installer cette l'extension Chrome "Claude for Sheets" dont vous allez avoir besoin pour connecter avec l'API Claude et vos tableurs Excel sur google docs
+- ETAPE_1 - Vous allez devoir installer cette l'extension Chrome "Claude for Sheets" dont vous allez avoir besoin pour connecter avec l'API Claude et vos tableurs Excel sur google docs. Voir https://workspace.google.com/marketplace/app/claude%5Ffor%5Fsheets/909417792257
 
-https://workspace.google.com/marketplace/app/claude%5Ffor%5Fsheets/909417792257
-
-- ETAPE_2 - Vous allez devoir obtenir une clé d'API sur claude à cette adresse : 
-
-https://console.anthropic.com/
+- ETAPE_2 - Vous allez devoir obtenir une clé d'API sur claude à cette adresse. Voir https://console.anthropic.com/
 
 
 
-- ETAPE_3 - Voilà la documention officiel pour "jouer" avec l'extension Chrome "Claude for Sheets" et vos google docs.
-
-https://docs.anthropic.com/en/docs/agents-and-tools/claude-for-sheets
+- ETAPE_3 - Voilà la documention officiel pour "jouer" avec l'extension Chrome "Claude for Sheets" et vos google docs. Voir https://docs.anthropic.com/en/docs/agents-and-tools/claude-for-sheets
 
 
 **Ci-dessous des explications en français pour faire étape par étape l'installation et l'utilisation de l'extension Chrome "Claude for Sheets"**

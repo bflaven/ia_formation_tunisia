@@ -5,6 +5,19 @@ Ressources sur les techniques de prompts.
 
 **Un ensemble de ressources sur l'art du prompt, un lexique... bref des ressources pédagogiques.**
 
+- README.md : ce document de presentation
+- agent_ia : Quelques définitions d'agents Claude
+- claude_ai_google_sheet : L'utilisation de l'extension Chrome "Claude for Sheets"
+- collab : des Google collab
+- prez : la présentation en pdf
+- prompt_academy : des ressources sur le prompt
+- prompts_images : des prompot d'images et les résultats de IA
+
+
+
+Dans `prompt_academy`, l'ensemble de prompts vu lors de la formation :
+
+
 - `001_ia_tunisia_1.md` : Liste de prompts pour la formation Jour #1
 - `002_lexique_1_IA.md` : Lexique des principaux mots utilisés
 - `003_ia_all_prompts_1.md` : Liste de prompts glanés sur des sujets variés (SEO, SMO, Summary, NLP...)

@@ -8,7 +8,7 @@ Ressources sur les techniques de prompts.
 - README.md : ce document de presentation
 - agent_ia : Quelques définitions d'agents Claude
 - claude_ai_google_sheet : L'utilisation de l'extension Chrome "Claude for Sheets"
-- collab : des Google collab
+- collab : des Google collab. Voir ci-dessous "Notebooks"
 - prez : la présentation en pdf
 - prompt_academy : des ressources sur le prompt
 - prompts_images : des prompot d'images et les résultats de IA

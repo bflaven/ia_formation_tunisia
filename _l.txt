@@ -1,8 +1,0 @@
-README.md
-_l.txt
-agent_ia
-claude_ai_google_sheet
-collab
-prez
-prompt_academy
-prompts_images

@@ -12,7 +12,7 @@ Ressources sur les techniques de prompts.
 - prez : la présentation en pdf sur demande par mail
 - prompt_academy : des ressources sur le prompt
 - prompts_images : des prompot d'images et les résultats de IA
-
+- prompt_books : some books on the art of prompting
 
 
 Dans `prompt_academy`, l'ensemble de prompts vu lors de la formation :

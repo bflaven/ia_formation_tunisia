@@ -75,6 +75,7 @@ git commit -am "add usecase"
 git commit -am "add files"
 git commit -am "update files"
 git commit -am "add directory and files"
+git commit -am "massive update files"
 
 # push to github if your branch on github is master
 # git push origin master

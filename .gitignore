@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# will ignore .DS_Store in every directory and subdirectory 
+**/.DS_Store
+
 # Distribution / packaging
 .vscode
 .Python
